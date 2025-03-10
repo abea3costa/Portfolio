@@ -28,7 +28,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
 - [About](https://github.com/abea3costa/Portfolio/blob/main/README.md#about)
 - [Portfolio Projects](https://github.com/abea3costa/Portfolio/blob/main/README.md#portfolio-projects)
   - Python
-    - [GDP (nominal) per Capita](link)
+    - [GDP (nominal) per Capita](https://github.com/abea3costa/Portfolio/blob/main/README.md#gdp-nominal-per-capita)
     - [Title](link)
   - MySQL
     - [Title](link)
