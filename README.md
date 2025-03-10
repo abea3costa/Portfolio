@@ -28,7 +28,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
 - [About](https://github.com/abea3costa/Portfolio/blob/main/README.md#about)
 - [Portfolio Projects](https://github.com/abea3costa/Portfolio/blob/main/README.md#portfolio-projects)
   - Python
-    - [Title](link)
+    - [GDP (nominal) per Capita](link)
     - [Title](link)
   - MySQL
     - [Title](link)
@@ -48,3 +48,37 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
 ## Portfolio Projects
 
 This repository contains a collection of projects which showcase my work and skills as a Data Analyst. 
+
+## Python
+
+# GDP (nominal) per Capita
+
+## Overview
+This project aims to analyse how different estimates relate to each other. The dataset contains information on UN, World Bank and IMF GDP estimates across different countries/territories in the world.
+
+## Technologies Used
+- Python (pandas, matplotlib, seaborn)
+
+## Dataset Description
+- The dataset consists of 224 records featuring the different GDP estimates and the year these were recorded.
+- Source: Kaggle's dataset: [GDP (in USD) Per Capita Income by Country](https://www.kaggle.com/datasets/rajkumarpandey02/gdp-in-usd-per-capita-income-by-country/data) 
+
+## Methodology
+- Data Cleaning: Handled missing values using averages and removed outliers.
+- Exploratory Data Analysis: Calculated average estimates and visualised if there was a positive or negative correlation between them.
+- Analysis: Verified how well each continent was represented by counting the number of records (Countries) per continent. Calculated the average IMF Estimate per continent. Calculated the World Bank Estimate by Year and Continent.
+- Visualisation: Built correlation matrix between estimates. Created visualisations for the analysis above.
+
+## Key Findings
+- The GDP estimates from the World Bank and the UN showed a strong positive correlation.
+- The World Bank and the IMF GDP estimates, as well as the UN and IMF GDP estimates, also show a positive correlation, although not as strong as the one observed between the World Bank and UN estimates.
+- Each continent was represented by a comparable sample of approximately 50 country records, with the exception of Oceania’s sample, which only included 20 country records.
+- Europe holds the highest GDP estimates and represents the highest rates of record keeping over the years when compared to other continents which present gaps in GDP estimate data.
+
+## Results & Conclusions
+- The analysis recommends that the records be dated and organized by year to prevent the risk of comparing the three distinct GDP estimates from different years.
+- To ensure a more accurate and streamlined analysis, certain issues related to data collection need to be addressed. These issues include the substantial amount of missing data and the inadequate recording of the years in which each estimate had been recorded, within the same row.
+
+## Challenges & Limitations
+- 11% of the cells in this dataset contained missing values, which is fairly substantial. Although these values were replaced with average estimates, this likely impacted the accuracy of the analysis.
+
