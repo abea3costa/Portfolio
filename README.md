@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Data Analyst
 ------------
 
-I hold a Bachelor of Science degree with a strong foundation in mathematics and statistics, and I’m about to graduate from the Just IT Data Technician Bootcamp. I transitioned from clinical work into data analysis to explore my enthusiasm for identifying patterns and trends. During my journey, I’ve honed my technical skills using tools like MySQL, Excel, Power BI, Tableau, Python, and R. My goal is to leverage my skills to help organizations make My goal is to leverage my skills to help organizations make data-driven decisions and drive business growth. I’m excited to apply my experience with BI tools and my problem-solving mindset to real-world data challenges. I’m always learning and ready to collaborate on exciting projects!
+I hold a Bachelor of Science degree with a strong foundation in mathematics and statistics, and I’m about to graduate from the Just IT Data Technician Bootcamp. I transitioned from clinical work into data analysis to explore my enthusiasm for identifying patterns and trends. During my journey, I’ve honed my technical skills using tools like MySQL, Excel, Power BI, Tableau, Python, and R. My goal is to leverage my skills to help organizations make data-driven decisions and drive business growth. I’m excited to apply my experience with BI tools and my problem-solving mindset to real-world data challenges. I’m always learning and ready to collaborate on exciting projects!
 
 *   🌍  I'm based in Newcastle Upon Tyne
 *   ✉️  You can contact me at [abcostaa@gmail.com](mailto:abcostaa@gmail.com)
