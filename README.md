@@ -25,8 +25,8 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
 
 
 ## Table of Contents
-- [About]()
-- [Portfolio Projects]()
+- [About](https://github.com/abea3costa/Portfolio/blob/main/README.md#about)
+- [Portfolio Projects](https://github.com/abea3costa/Portfolio/blob/main/README.md#portfolio-projects)
   - Python
     - [Title](link)
     - [Title](link)
