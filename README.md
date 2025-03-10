@@ -4,6 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Data Analyst
 ------------
 
+### About
 I hold a Bachelor of Science degree with a strong foundation in mathematics and statistics, and I’m about to graduate from the Just IT Data Technician Bootcamp. I transitioned from clinical work into data analysis to explore my enthusiasm for identifying patterns and trends. During my journey, I’ve honed my technical skills using tools like MySQL, Excel, Power BI, Tableau, Python, and R. My goal is to leverage my skills to help organizations make data-driven decisions and promote business growth. Looking for new opportunities to grow professionally and make meaningful contributions as a Data Analyst. I’m excited to apply my experience with BI tools and my problem-solving mindset to real-world data challenges. I’m always seeking new opportunities for personal and professional development, and I'm eager to collaborate on exciting projects!
 
 *   🌍  I'm based in Newcastle Upon Tyne
@@ -21,3 +22,29 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
 <p align="left"> <a href="https://www.github.com/abea3costa" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /> </picture> </a></p>
                     
 ### CV [pdf](https://github.com/abea3costa/Portfolio/blob/main/CVBC.pdf)
+
+
+## Table of Contents
+- [About]()
+- [Portfolio Projects]()
+  - Python
+    - [Title](link)
+    - [Title](link)
+  - MySQL
+    - [Title](link)
+    - [Title](link)
+  - Azure
+    - [Title](link)
+  - Excel
+    - [Title](link)
+    - [Title](link)
+  - Tableau
+    - [Title](link)
+    - [Title](link)
+  - Power BI
+    - [Title](link)
+    - [Title](link)
+
+## Portfolio Projects
+
+This repository contains a collection of projects which showcase my work and skills as a Data Analyst. 
