@@ -70,10 +70,11 @@ This project aims to analyse how different estimates relate to each other. The d
 - Visualisation: Built correlation matrix between estimates. Created visualisations for the analysis above.
 
 ### Visualisations
+-Correlation Matrix between estimates
 ![Correlation matrix between estimates](https://github.com/abea3costa/Portfolio/blob/main/Images%20GDP%20python%20project/Correlation%20matrix%20between%20estimates.png)
-
+-Continents by IMF Estimate
 ![Continents by IMF Estimate](https://github.com/abea3costa/Portfolio/blob/main/Images%20GDP%20python%20project/Continents%20by%20IMF%20Estimate.png )
-
+-World Bank Estimates by Year and Continent
 ![World Bank Estimates by Year and Region](https://github.com/abea3costa/Portfolio/blob/main/Images%20GDP%20python%20project/World%20Bank%20Estimates%20by%20Year%20and%20Region.png)
 
 ### Key Findings
