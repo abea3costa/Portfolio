@@ -97,7 +97,7 @@ This project aims to analyse how different estimates relate to each other. The d
 ### Overview
 This project’s aim is to create a BMI calculator based on the NHS formula and classification criteria. The BMI calculator is a simple tool that calculates a person's BMI based on their weight and height. The BMI value is then categorized into different ranges (Underweight, Normal weight, Overweight, Obese and Severely Obese) to give users an indication of their health status.
 
-### Technologies Used:
+### Technologies Used
 - Python: The core programming language for the BMI calculation logic.
 - Jupyter Notebook: Used for an interactive coding experience, making it easy to showcase the program and output.
 
@@ -105,7 +105,7 @@ This project’s aim is to create a BMI calculator based on the NHS formula and 
 - [BMI Formula Source]( https://www.nhs.uk/health-assessment-tools/calculate-your-body-mass-index/calculate-bmi-for-adults)
 - [BMI classification source]( https://www.nhsinform.scot/healthy-living/food-and-nutrition/healthy-eating-and-weight-management/body-mass-index-bmi/)
 
-### Key Features:
+### Key Features
 - User Input: The program prompts the user to enter their weight (in kilograms) and height (in meters).
 - BMI Calculation: The formula used to calculate BMI is:
 BMI=(weight/((height*0.01)2))
