@@ -31,19 +31,20 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [GDP (nominal) per Capita](https://github.com/abea3costa/Portfolio/blob/main/README.md#gdp-nominal-per-capita)
     - [BMI Calculator in Python (Jupyter Notebook)](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
   - MySQL
-    - [Title](link)
-    - [Title](link)
-  - Azure
-    - [Title](link)
+    - [Data Cleaning and Modelling]()
+    - [Tech Layoffs - Exploratory Data Analysis]()
   - Excel
-    - [Title](link)
-    - [Title](link)
+    - [Coffee Sales Dashboard]()
+    - [Bike Sales Dashboard]()
   - Tableau
-    - [Title](link)
-    - [Title](link)
+    - [OHS Health Survey]()
+    - [Spotify Listeners Analysis]()
+    - [Gaming Sales]()
   - Power BI
-    - [Title](link)
-    - [Title](link)
+    - [Tech Job Satisfaction Survey]()[Apocalypse Preparation Analysis]()
+    - [Apocalypse Preparation Analysis]()
+  - Azure
+    - [Paws & Whiskers transition to Microsoft Azure]()
 
 ## Portfolio Projects
 
@@ -124,4 +125,31 @@ BMI=(weight/((height*0.01)2))
 ### Future Work
 - Matplotlib: Visualization tools, like creating plots to show BMI categories or trends over time (if extended functionality is implemented).
 - Pandas: Can be used for collecting, storing, or analysing data, such as BMI data of multiple users.
+
+# MySQL
+
+## Data Cleaning and Modelling
+
+## Tech Layoffs - Exploratory Data Analysis
+
+# Excel
+
+## Coffee Sales Dashboard
+
+## Bike Sales Dashboard
+
+# Tableau
+
+## OHS Health Survey
+
+## Spotify Listeners Analysis
+
+## Apocalypse Preparation Analysis
+
+# Azure
+
+## Paws & Whiskers transition to Microsoft Azure
+  
+
+
 
