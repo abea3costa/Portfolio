@@ -155,6 +155,12 @@ BMI=(weight/((height*0.01)2))
 # Azure
 
 ## Paws & Whiskers transition to Microsoft Azure
+
+### Overview
+This project is an analysis of the Microsoft Azure products most suitable for "Paws and Whiskers," a pet shop aiming to expand its business. The focus is on optimizing data storage, analysis, and reporting to help the business make data-driven decisions.
+
+### Click here to download the pdf: [Paws and Whiskers - A pet shop transition to Microsoft Azure]()
+
   
 
 
