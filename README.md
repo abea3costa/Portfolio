@@ -109,11 +109,11 @@ This project’s aim is to create a BMI calculator based on the NHS formula and 
 - BMI Calculation: The formula used to calculate BMI is:
 BMI=(weight/((height*0.01)2))
 - BMI Classification: The program outputs the calculated BMI along with a classification based on the value:
- - Underweight: BMI < 18.5
- - Normal weight: 18.5 ≤ BMI < 24.9
- - Overweight: 25 ≤ BMI < 29.9
- - Obese: 30 ≤ BMI < 39.9
- - Severely obese: BMI ≥ 40
+  - Underweight: BMI < 18.5
+  - Normal weight: 18.5 ≤ BMI < 24.9
+  - Overweight: 25 ≤ BMI < 29.9
+  - Obese: 30 ≤ BMI < 39.9
+  - Severely obese: BMI ≥ 40
 
 ### How to Run the Code
 1.	Clone the repository: git clone [Repository](https://github.com/abea3costa/Portfolio)
