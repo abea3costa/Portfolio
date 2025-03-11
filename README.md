@@ -144,6 +144,10 @@ BMI=(weight/((height*0.01)2))
 
 ## Spotify Listeners Analysis
 
+# Power BI
+  
+## Tech Job Satisfaction Survey
+
 ## Apocalypse Preparation Analysis
 
 # Azure
