@@ -29,7 +29,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
 - [Portfolio Projects](https://github.com/abea3costa/Portfolio/blob/main/README.md#portfolio-projects)
   - Python
     - [GDP (nominal) per Capita](https://github.com/abea3costa/Portfolio/blob/main/README.md#gdp-nominal-per-capita)
-    - [BMI Calculator in Python (Jupyter Notebook)]()
+    - [BMI Calculator in Python (Jupyter Notebook)](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
   - MySQL
     - [Title](link)
     - [Title](link)
@@ -117,7 +117,7 @@ Severely obese: BMI ≥ 40
 
 ### How to Run the Code
 1.	Clone the repository: git clone [Repository](https://github.com/abea3costa/Portfolio)
-2.	Navigate to the project directory: cd [BMI Calculator in Python (Jupyter Notebook)]( https://github.com/abea3costa/Portfolio/blob/main/link)
+2.	Navigate to the project directory: cd [BMI Calculator in Python (Jupyter Notebook)]([ https://github.com/abea3costa/Portfolio/blob/main/link](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
 3.	Open the Jupyter Notebook: [BMI calculator]( https://github.com/abea3costa/Portfolio/blob/main/BMI%20calculator.ipynb)
 4.	Run the notebook and follow the instructions for input.
 
