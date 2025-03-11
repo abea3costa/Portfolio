@@ -31,20 +31,20 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [GDP (nominal) per Capita](https://github.com/abea3costa/Portfolio/blob/main/README.md#gdp-nominal-per-capita)
     - [BMI Calculator in Python (Jupyter Notebook)](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
   - MySQL
-    - [Data Cleaning and Modelling]()
-    - [Tech Layoffs - Exploratory Data Analysis]()
+    - [Data Cleaning and Modelling](https://github.com/abea3costa/Portfolio/blob/main/README.md#data-cleaning-and-modelling)
+    - [Tech Layoffs - Exploratory Data Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-layoffs---exploratory-data-analysis)
   - Excel
-    - [Coffee Sales Dashboard]()
-    - [Bike Sales Dashboard]()
+    - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
+    - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
   - Tableau
-    - [OHS Health Survey]()
-    - [Spotify Listeners Analysis]()
+    - [OHS Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#ohs-health-survey)
+    - [Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#spotify-listeners-analysis)
     - [Gaming Sales]()
   - Power BI
-    - [Tech Job Satisfaction Survey]()[Apocalypse Preparation Analysis]()
-    - [Apocalypse Preparation Analysis]()
+    - [Tech Job Satisfaction Survey]()
+    - [Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#apocalypse-preparation-analysis)
   - Azure
-    - [Paws & Whiskers transition to Microsoft Azure]()
+    - [Paws & Whiskers transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
 
 ## Portfolio Projects
 
