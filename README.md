@@ -117,7 +117,7 @@ BMI=(weight/((height*0.01)2))
 
 ### How to Run the Code
 1.	Clone the repository: git clone [Repository](https://github.com/abea3costa/Portfolio)
-2.	Navigate to the project directory: cd [BMI Calculator in Python (Jupyter Notebook)]([ https://github.com/abea3costa/Portfolio/blob/main/link](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
+2.	Navigate to the project directory: cd [BMI Calculator in Python (Jupyter Notebook)](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
 3.	Open the Jupyter Notebook: [BMI calculator]( https://github.com/abea3costa/Portfolio/blob/main/BMI%20calculator.ipynb)
 4.	Run the notebook and follow the instructions for input.
 
