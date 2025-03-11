@@ -41,7 +41,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#spotify-listeners-analysis)
     - [Gaming Sales]()
   - Power BI
-    - [Tech Job Satisfaction Survey]()
+    - [Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-job-satisfaction-survey)
     - [Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#apocalypse-preparation-analysis)
   - Azure
     - [Paws & Whiskers transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
@@ -143,6 +143,8 @@ BMI=(weight/((height*0.01)2))
 ## OHS Health Survey
 
 ## Spotify Listeners Analysis
+
+## Gaming Sales
 
 # Power BI
   
