@@ -133,7 +133,36 @@ BMI=(weight/((height*0.01)2))
 
 # Excel
 
-## Coffee Sales Dashboard
+## ![Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Coffee_Sales_Dashboard.png)
+
+## Overview
+This project’s objective is to create an intuitive dashboard including the key insights of sales analysis in a coffee shop such as Revenue, payment mode and most popular and profitable orders.
+
+## Technologies Used
+- Excel: EDA formulas such as MIN(), MAX(), AVERAGE(), COUNT() to describe sales and coffee prices, formulas such as SUMIF() and COUNTIF() to group total revenue by coffee order, pivot tables to summarise the data and charts to visually display findings.
+
+## Dataset Description
+- The dataset consists of 2838 records containing details of customer orders like product ordered, price and payment method.
+- Source: Kaggle's dataset: [Coffee Sales]( https://www.kaggle.com/datasets/ihelon/coffee-sales) 
+
+## Methodology
+- Data Cleaning: Ensured the data was standardized, verified that data types were in the correct format, and removed any duplicates.
+- Exploratory Data Analysis: Calculated minimum, maximum and average brew prices as well as calculated the total recorded sales transactions.
+- Analysis: Calculated the coffee shop order popularity, coffee orders generating the most revenue total orders over time. 
+- Visualisation: The dashboard utilizes charts and graphs to visually represent key insights which resulted from my analysis, making it easier to identify trends and patterns.
+
+## Key Findings
+- Revenue and total orders are at their peak in October with a second less significant peak in May. The lowest registered sales were in January and April.
+- The most popular orders are the Americano with Milk and the Latte, while the least popular are the espresso and cocoa. 
+- The Latte generates the majority of the revenue, and while the Americano with milk is ordered slightly more frequently, its lower price results in less revenue compared to the Latte.
+
+## Results & Conclusions
+- To boost coffee sales in January, I recommend introducing coffee shop vouchers that customers can give as Christmas gifts to family and friends.
+- Based on my research, the decline in sales in April may be linked to a drop in monthly export volume, resulting from a smaller coffee bean harvest in certain regions. This can be addressed by offering alternatives to coffee, such as breakfast teas or other tea varieties, or by exploring other coffee supplier options.
+
+## Challenges & Limitations
+- The dataset lacked information on the types of coffee beans and the suppliers, which would have been helpful in identifying the cause of the reduced revenue in April and exploring more targeted alternatives to address the issue.
+
 
 ## Bike Sales Dashboard
 
