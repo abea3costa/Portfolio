@@ -317,8 +317,42 @@ The objective of this project is to create an intuitive dashboard which showcase
 
 ![Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Apocalypse%20prep%20Sales.png)
 
+## Overview
+This project aims to create an intuitive, interactive dashboard that presents key insights into the sales of apocalypse preparation items across different retail shops.
+
+## Technologies Used
+- Power BI (Table view, Model view, DAX, split columns by delimiter, filters, visualisations formatting and editing)
+
+## Dataset Description
+- The dataset includes 142 records spread across different tables: one containing inventory data with product prices and production costs, another with sales details, a third with retailer information, and the final one with customer details.
+- Source: AlexTheAnalyst GitHub: [Apocalypse Dataset]( https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Visualizations%20Tutorial.xlsx)
 
 ![Modeling Apocalypse](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Data%20Modelling%20Apocalypse.png)
+
+## Methodology
+- Managing relationships: On the Model view tab, established the relationships by linking the tables by Customer ID and Product ID.
+- Data Cleaning: Removed duplicates, used DAX to split columns by delimiters, to make it easier to correct the data type of the price column. Standardized the format and ensured all columns had the appropriate data types.
+- Visualisation: The dashboard features cards, a table, a scatter plot, a donut chart, a line chart, and two bar charts to showcase popular product choices, units sold over time, customer purchases across different US states, and the correlation between price and cost.
+- User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
+- Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
+
+## Key Findings
+- The multitool survival knife, the nylon rope and the duct tape are among the best sellers.
+- The shop that sold more items was Uncle Joe’s Prep Shop.
+- In a total of 22000 units sold, 6000 units were sold in the state of Minnesota.
+- There was a marked peak of sales for duct tape around the 22nd day of the month. 
+- Although the weatherproof jacket has the one of the highest production costs, second to the stainless-steel axe, it is sold at over 150% of its cost, which makes it the item with the highest profit margin. 
+- The duct tape and the N95 mask present the lowest production costs and prices. However, these results in very little profit.
+
+## Results & Conclusions
+- The Minnesota appears to be a good option for shops that sell items for the apocalypse.
+- The Nylon Rope and the Multitool survival knife both have really good profit margins and sell really well, so they would be a good investment and worth stocking up the inventory for. 
+- The duct tape despite its popularity, duct tape is sold at a price nearly equal to its production cost. I would suggest buying it from a cheaper supplier or raising the price. Increasing the price from $6.25 to $6.87 could boost profits by almost 45%. Given the duct tape's popularity, customers are unlikely to notice the 10% price increase. 
+- In order to increase the N95 profitability as well, these could be sold as a bundle with the duct tape and an item with a significant profit margin such as the weatherproof jacket or the nylon rope.
+
+## Challenges & Limitations
+- Although this is a fictional dataset, it offered valuable experience using Power BI’s model view, establishing relationships, and extracting meaningful insights related to retail sales and valuable marketing strategy research, all of which are applicable to similar real-life scenarios.
+
 
 
 # Azure
