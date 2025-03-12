@@ -36,7 +36,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
     - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
   - Tableau
-    - [OHS Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#ohs-health-survey)
+    - [OHS Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#who-health-survey)
     - [Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#spotify-listeners-analysis)
     - [Gaming Sales](https://github.com/abea3costa/Portfolio/blob/main/README.md#gaming-sales)
   - Power BI
@@ -200,7 +200,40 @@ The objective of this project is to create an intuitive dashboard with sliders t
 
 # Tableau
 
-## OHS Health Survey
+## WHO Health Survey
+
+![WHO Health Survey](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/WHO%20Cancer%20Data%201990-2008.png)
+
+## Overview
+The objective of this project is to create an intuitive dashboard which highlights key insights from the World Health Organisation (WHO) cancer rates data between the years of 1990 and 2008.
+
+## Technologies Used
+- Tableau: Used different sheets for each visualisation to then combine them in a dashboard. Utilised calculated fields for cancer incidence rates around the world (Incidence Rate= (Number of new cases) / (Total population) * 100).
+
+## Dataset Description
+- The dataset consists of 6004 records containing details of the world population liver, stomach and lung cancer rates as well as different risk factors.
+- Source: JustIT Data Technician Bootcamp: [World Health Organisation (WHO) cancer rates 1990-2008](Day_2_Task_2_Health_Survey.twbx)
+
+## Methodology
+- Visualisation: The dashboard contains a heatmap, a table, a pie chart and several bar charts, to visually represent key insights regarding cancer rates across the globe, making it easier to identify a growing trend over time and risk factor patterns.
+- User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
+- Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
+
+## Key Findings
+- Cancer rates are notably high in Asia, Europe, and the Americas.
+- The cancer rates worldwide have been increasing over time.
+- Men have a higher incidence of stomach, lung, and liver cancers compared to women.
+- For the cancers where data is available (liver, lung, and stomach), factors such as a high BMI or high blood pressure do not appear to significantly influence the volume of cases. However, high cholesterol levels seem to be associated with a higher volume of cases for these types of cancers.
+
+## Results & Conclusions
+- National Health Systems can use the increasing global cancer rates as a call to action to enhance prevention, early detection, treatment, and support services.
+- Public health education, particularly for high-risk groups, expanding screening programs and addressing lifestyle factors (i.e. poor diet and sedentary behaviour) can minimise the impact of rising cancer rates and maximise patient outcomes.
+- Investing in cancer research and care, can also reduce the impact of increasing cancer rates and improve outcomes for patients.
+
+## Challenges & Limitations
+- Cancer rates are notably high in Asia, Europe, and the Americas, but these rates may not be as high in other continents due to a lack of reliable data from those regions.
+- Examining environmental factors, such as air pollution and exposure to carcinogens, could offer further insights into the rising cancer rates.
+
 
 ## Spotify Listeners Analysis
 
