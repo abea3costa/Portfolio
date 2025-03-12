@@ -33,7 +33,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [Data Cleaning and Modelling](https://github.com/abea3costa/Portfolio/blob/main/README.md#data-cleaning-and-modelling)
     - [Tech Layoffs - Exploratory Data Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-layoffs---exploratory-data-analysis)
   - Excel
-    - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/edit/main/README.md#coffee-sales-dashboard)
+    - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
     - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
   - Tableau
     - [OHS Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#ohs-health-survey)
