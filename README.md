@@ -275,6 +275,10 @@ The objective of this project is to create an intuitive dashboard which highligh
 
 ## Gaming Sales
 
+![Gaming Sales](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Gaming%20Sales%20Analysis.png)
+
+
+
 # Power BI
   
 ## Tech Job Satisfaction Survey
