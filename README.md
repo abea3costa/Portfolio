@@ -324,7 +324,7 @@ The objective of this project is to create an intuitive dashboard which showcase
   
 ## Tech Job Satisfaction Survey
 
-![Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Professional%20Survey%20Breakdown.png)
+![Tech Job Satisfaction](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Professional%20Survey%20Breakdown.png)
 
 
 
