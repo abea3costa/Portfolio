@@ -239,6 +239,40 @@ The objective of this project is to create an intuitive dashboard which highligh
 
 ![Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Spotify%20listeners%20analysis.png)
 
+## Overview
+The objective of this project is to create an intuitive dashboard which highlights key aspects regarding Spotify listeners’ trends. 
+
+## Technologies Used
+- Tableau: Used different sheets for each visualisation to then combine them in a dashboard. Utilised calculated fields to convert song duration from milliseconds to minutes (Duration in Minutes=Duration in milliseconds/60000).
+
+## Dataset Description
+- The dataset includes 10,000 records covering various aspects of Spotify listeners' habits, such as different artists, songs, genres, as well as quantitative measures (acousticness, energy, duration, and tempo) and qualitative attributes (key and mode) of the songs.
+- Source: JustIT Data Technician Bootcamp: [Spotify Listeners Data](Extension_Task_SpotifyFeatures.csv)
+
+## Methodology
+- Visualisation: The dashboard features several visualizations, including bar charts, a pie chart, a tree map, and two scatter plots, to showcase key insights on the most popular artists and genres, the most versatile artists (spanning different genres), the correlation between song duration and tempo, and the relationship between acousticness and energy.
+- User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
+- Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
+
+## Key Findings
+- The top 10 artists span a wide range of genres, including Hip-Hop, R&B, Classical, and movie and video game scores.
+- The most popular genres are Pop, Rap, Rock, Hip-Hop, Indie, and Children’s Music.
+- Users tend to prefer songs in Major over Minor modes. 
+- The artists with the most versatility—having songs across 8 different genres—include The Cocteau Twins, dvsn, SiR, and Toro Y Moi.
+- There’s a wide variety of relationships between song duration and tempo: most genres fall within the 110-125 bpm range, with playtimes between 3.5 and 4 minutes. 
+- Acousticness appears to be inversely related to Energy. Artists with high acousticness typically create music that is almost entirely acoustic, with little to no electronic or synthetic elements. In contrast, artists with high energy create upbeat, fast-paced tracks that often feature synthesized sounds, electronic beats, and digital effects, resulting in low acousticness.
+
+## Results & Conclusions
+- This data enables personalized recommendations, targeted marketing, and content curation, which can enhance user engagement and retention.
+- Understanding trends allows Spotify to optimize its playlists, improve user experience, and inform decisions about partnerships, advertising, and future content investments.
+
+## Challenges & Limitations
+- Spotify's algorithm can contribute to users listening to the same music, especially within algorithmic playlists like "Discover Weekly" or "Release Radar," as it prioritizes popular songs and those similar to users’ listening history, leading to personalized but potentially repetitive music. To tackle this, Spotify can introduce:
+  - A feature that intentionally includes less popular or unfamiliar tracks alongside familiar ones in these playlists.
+  - Allow users to set preferences for how much variety they want in their recommendations. For instance, users could toggle between "familiar" and "exploratory" modes.
+  - Introduce suggestions based on diverse listening patterns from users with similar but distinct tastes, encouraging a mix of familiar and novel tracks.
+
+
 ## Gaming Sales
 
 # Power BI
