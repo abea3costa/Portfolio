@@ -311,14 +311,14 @@ The objective of this project is to create an intuitive dashboard which showcase
   
 ## Tech Job Satisfaction Survey
 
-![Tech Job Satisfaction Survey]()
+![Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Professional%20Survey%20Breakdown.png)
 
 ## Apocalypse Preparation Analysis
 
-![Apocalypse Preparation Analysis]()
+![Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Apocalypse%20prep%20Sales.png)
 
 
-![Modeling Apocalypse]()
+![Modeling Apocalypse](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Data%20Modelling%20Apocalypse.png)
 
 
 # Azure
