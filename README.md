@@ -313,6 +313,8 @@ The objective of this project is to create an intuitive dashboard which showcase
 
 ## Apocalypse Preparation Analysis
 
+
+
 # Azure
 
 ## Paws & Whiskers transition to Microsoft Azure
