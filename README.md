@@ -275,7 +275,7 @@ The objective of this project is to create an intuitive dashboard which highligh
 
 ## Gaming Sales
 
-![Game Sales](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Gaming%20Sales%20Analysis.png)
+![Gaming Sales Analysis](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Gaming%20Sales%20Analysis.png)
 
 ## Overview
 The objective of this project is to create an intuitive dashboard which showcases the most profitable markets in the gaming industry, as well as the evolution of sales and game releases over time. 
