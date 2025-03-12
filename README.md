@@ -327,10 +327,9 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 - The dataset includes 142 records spread across different tables: one containing inventory data with product prices and production costs, another with sales details, a third with retailer information, and the final one with customer details.
 - Source: AlexTheAnalyst GitHub: [Apocalypse Dataset]( https://github.com/AlexTheAnalyst/Power-BI/blob/main/Apocolypse%20Food%20Prep%20-%20Visualizations%20Tutorial.xlsx)
 
-![Modeling Apocalypse](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Data%20Modelling%20Apocalypse.png)
-
 ## Methodology
 - Managing relationships: On the Model view tab, established the relationships by linking the tables by Customer ID and Product ID.
+![Modeling Apocalypse](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Data%20Modelling%20Apocalypse.png)
 - Data Cleaning: Removed duplicates, used DAX to split columns by delimiters, to make it easier to correct the data type of the price column. Standardized the format and ensured all columns had the appropriate data types.
 - Visualisation: The dashboard features cards, a table, a scatter plot, a donut chart, a line chart, and two bar charts to showcase popular product choices, units sold over time, customer purchases across different US states, and the correlation between price and cost.
 - User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
