@@ -169,6 +169,25 @@ This project’s objective is to create an intuitive dashboard including the key
 
 ## Bike Sales Dashboard
 
+![Bike Sales](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Bike%20Sales.png)
+
+## Overview
+The objective of this project is to create an intuitive dashboard with sliders that highlights key insights from bike sales analysis and demographics. I examine how factors such as region, commuting distance, education level, income, gender, and age influence customers' bike purchases.
+
+## Technologies Used
+- Excel: EDA formulas such as MIN(), MAX(), AVERAGE(), COUNT() to describe sales and bike sales, IF statements to categorise customers age in groups (Adolescent, Middle Age and Old), pivot tables to summarise the data and charts and sliders to visually display findings in an intuitive dashboard.
+
+## Dataset Description
+- The dataset consists of 1000 records containing details of customer demographics such as age, gender, marital status, level of education and income.
+- Source: AlexTheAnalyst GitHub: [Bike Sales](https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx) 
+
+## Methodology
+- Data Cleaning: Ensured the data was standardized, verified that data types were in the correct format, and removed any duplicates as well as any irrelevant columns.
+- Exploratory Data Analysis: using pivot tables, summarised and explored bike purchases by customer demographics.
+- Analysis: Calculated average income and grouped customer data by gender to compare income and gender to bike purchases. Analysed bike purchases by age group and examined how commute distance to work influenced bike sales.
+- Visualisation: The dashboard features charts and graphs to visually display key insights derived from my analysis, making it easier to identify customer buying patterns. It also includes slicers to filter data based on additional factors such as marital status, region, education, and homeownership (Yes/No).
+
+
 # Tableau
 
 ## OHS Health Survey
