@@ -36,7 +36,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
     - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
   - Tableau
-    - [OHS Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#who-health-survey)
+    - [WHO Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#who-health-survey)
     - [Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#spotify-listeners-analysis)
     - [Gaming Sales](https://github.com/abea3costa/Portfolio/blob/main/README.md#gaming-sales)
   - Power BI
