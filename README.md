@@ -33,7 +33,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [Data Cleaning and Modelling](https://github.com/abea3costa/Portfolio/blob/main/README.md#data-cleaning-and-modelling)
     - [Tech Layoffs - Exploratory Data Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-layoffs---exploratory-data-analysis)
   - Excel
-    - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
+    - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/edit/main/README.md#coffee-sales-dashboard)
     - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
   - Tableau
     - [OHS Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#ohs-health-survey)
@@ -133,7 +133,9 @@ BMI=(weight/((height*0.01)2))
 
 # Excel
 
-## ![Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Coffee_Sales_Dashboard.png)
+## Coffee Sales Dashboard
+
+![Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Coffee_Sales_Dashboard.png)
 
 ## Overview
 This project’s objective is to create an intuitive dashboard including the key insights of sales analysis in a coffee shop such as Revenue, payment mode and most popular and profitable orders.
