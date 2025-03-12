@@ -237,6 +237,8 @@ The objective of this project is to create an intuitive dashboard which highligh
 
 ## Spotify Listeners Analysis
 
+![Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Spotify%20listeners%20analysis.png)
+
 ## Gaming Sales
 
 # Power BI
