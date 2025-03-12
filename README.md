@@ -138,7 +138,7 @@ BMI=(weight/((height*0.01)2))
 ![Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Coffee_Sales_Dashboard.png)
 
 ## Overview
-This project’s objective is to create an intuitive dashboard including the key insights of sales analysis in a coffee shop such as Revenue, payment mode and most popular and profitable orders.
+This project’s objective is to create an intuitive dashboard including the key insights of sales analysis in a coffee shop such as revenue, payment mode and most popular and most revenue generating coffee orders.
 
 ## Technologies Used
 - Excel: EDA formulas such as MIN(), MAX(), AVERAGE(), COUNT() to describe sales and coffee prices, formulas such as SUMIF() and COUNTIF() to group total revenue by coffee order, pivot tables to summarise the data and charts to visually display findings.
@@ -155,6 +155,7 @@ This project’s objective is to create an intuitive dashboard including the key
 
 ## Key Findings
 - Revenue and total orders are at their peak in October with a second less significant peak in May. The lowest registered sales were in January and April.
+- The card is most evidently the most popular payment method.
 - The most popular orders are the Americano with Milk and the Latte, while the least popular are the espresso and cocoa. 
 - The Latte generates the majority of the revenue, and while the Americano with milk is ordered slightly more frequently, its lower price results in less revenue compared to the Latte.
 
