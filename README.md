@@ -246,7 +246,7 @@ The objective of this project is to create an intuitive dashboard which highligh
 - Tableau: Used different sheets for each visualisation to then combine them in a dashboard. Utilised calculated fields to convert song duration from milliseconds to minutes (Duration in Minutes=Duration in milliseconds/60000).
 
 ## Dataset Description
-- The dataset includes 10,000 records covering various aspects of Spotify listeners' habits, such as different artists, songs, genres, as well as quantitative measures (acousticness, energy, duration, and tempo) and qualitative attributes (key and mode) of the songs.
+- The dataset includes 232,725 records covering various aspects of Spotify listeners' habits, such as different artists, songs, genres, as well as quantitative measures (acousticness, energy, duration, and tempo) and qualitative attributes (key and mode) of the songs.
 - Source: JustIT Data Technician Bootcamp: [Spotify Listeners Data](Extension_Task_SpotifyFeatures.csv)
 
 ## Methodology
