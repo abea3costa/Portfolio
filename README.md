@@ -275,8 +275,36 @@ The objective of this project is to create an intuitive dashboard which highligh
 
 ## Gaming Sales
 
+![Game Sales](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Gaming%20Sales%20Analysis.png)
 
+## Overview
+The objective of this project is to create an intuitive dashboard which showcases the most profitable markets in the gaming industry, as well as the evolution of sales and game releases over time. 
 
+## Technologies Used
+- Tableau: Used different sheets for each visualisation to then combine them in a dashboard. 
+
+## Dataset Description
+- The dataset includes 12,441 records covering information regarding videogame sales, such as, genre, platform and publisher.
+- Source: JustIT Data Technician Bootcamp: [Videogame Sales](Day_2_Gaming_Sales.twbx)
+
+## Methodology
+- Visualisation: The dashboard features several visualizations, such as line charts and several bar charts, to showcase the number of video game releases over time, global and european sales trends, and the most profitable video games, genres, and platforms (e.g., PS2, Wii, Nintendo DS, etc.).
+- User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
+- Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
+
+## Key Findings
+- Between 1980 and 2010, Videogames releases peaked around 2008-2009 with both global and European sales following the same pattern.
+- The top 5 most profitable genres are Action, Sports, Platform, Role-Playing and Shooter.
+- The top 5 most profitable platforms are PlayStation 2, Wii, Nintendo DS, PlayStation and X360.
+- Electronic Arts and Nintendo released the most games in total with marked versatility in genres.
+- Best sellers include Wii Sports, Super Mario Bros and Mario Kart Wii, in the category of sports, platform and racing respectively. 
+
+## Results & Conclusions
+- Analysing video game trends and patterns helps publishers make informed decisions about their upcoming releases, maximizing profitability.
+- Action and Sports games appear to be the most profitable genres, making them a reliable choice for publishers.
+
+## Challenges & Limitations
+- The long names of video game publishers and titles can impact the dashboard’s design, affecting both its visual appeal and readability. Abbreviating names would compromise the clarity of the charts, making them difficult to interpret.
 
 
 # Power BI
