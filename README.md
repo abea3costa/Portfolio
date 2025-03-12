@@ -326,6 +326,41 @@ The objective of this project is to create an intuitive dashboard which showcase
 
 ![Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Professional%20Survey%20Breakdown.png)
 
+## Overview
+The main goal of this project is to create an interactive and intuitive dashboard which highlights the main insights derived from the analysis of job satisfaction survey results across various tech careers.
+
+## Technologies Used
+- Power BI (Table view, DAX, split columns by delimiter, filters, visualisations formatting and editing)
+
+## Dataset Description
+- The dataset consists of 630 records, with each record representing a survey participant. The questionnaire (columns) includes job title, salary bracket, industry, preferred programming language, country, level of education, and ratings (0-10) on factors such as work-life balance, career progression opportunities, management, etc.
+- Source: AlexTheAnalyst GitHub: [Job Satisfaction Survey](https://github.com/AlexTheAnalyst/Power-BI/blob/main/Power%20BI%20-%20Final%20Project.xlsx)
+
+
+## Methodology
+- Data Cleaning: Removed duplicates and irrelevant columns for my analysis. Used DAX to split the salary bracket column by delimiters, to make it easier to create a new column with the average salary per tech role. I also used this technique to remove any irrelevant information from free-text boxes that could make the dashboard appear cluttered, consolidating all unique responses to the "Other, please specify" field into a single category labelled "Other”. Standardised the format and ensured all columns had the appropriate data types.
+- Visualisation: The dashboard includes cards, a bar chart, a stacked column chart, two gauges, a tree map, and a donut chart, which showcase key statistics from the tech job satisfaction survey.
+- User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
+- Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
+
+## Key Findings
+- There was a total of 630 participants in this survey, out of which 50.8% were females. 
+- The largest sample by job role were the Data Analysts, with a total of 381 participants.
+- The average age of the participants is 29.87 years old.
+- The United States corresponded to 41.4% of the survey takers, although there were participants from all over the world.
+- Data Scientists present the highest average salaries, followed by Data Engineers and Data Architects.
+- Most tech professionals prefer Python for programming.
+- The salary happiness rating is 4.27 out of 10.
+- The work/life balance rating is 5.74 out of 10.
+
+## Results & Conclusions
+- The information presented by the dashboard can be highly valuable for individuals aspiring to pursue a career in data. Based on the factors that matter most to each person—whether it’s salary, work-life balance, or career progression opportunities—this data analysis can assist in making more informed decisions about their professional future.
+- Data Science could offer a promising career, with the highest average salaries, along with the highest salary satisfaction and work/life balance ratings. However, the number of Data Scientists participating in the survey was significantly smaller compared to the sample of Data Analysts. It would be beneficial to engage more Data Scientists to gather their input and create a broader, more representative sample of survey responses.
+
+## Challenges & Limitations
+- This dataset is based on a real survey conducted by Alex the Analyst (YouTube Channel). While it offers valuable data and very useful post-analysis insights, the survey appears to have primarily targeted Data Analysts, which isn’t surprising given that Alex Freberg’s followers are mostly Data Analysts or aspiring Data Analysts. The survey's structure is excellent; however, increasing the sample of the other data jobs would enhance the dataset, making it more informative and offering a comprehensive overview of various data roles—particularly for those still uncertain about their data career path.
+
+
 
 ## Apocalypse Preparation Analysis
 
