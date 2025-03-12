@@ -336,12 +336,12 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 - Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
 
 ## Key Findings
-- The multitool survival knife, the nylon rope and the duct tape are among the best sellers.
-- The shop that sold more items was Uncle Joe’s Prep Shop.
-- In a total of 22000 units sold, 6000 units were sold in the state of Minnesota.
+- The multitool survival knife, the nylon rope and the duct tape are the top 3 best sellers.
+- The shop with the highest sales was Uncle Joe’s Prep Shop.
+- Out of a total of 22,000 units sold, 6,000 units were sold in the state of Minnesota.
 - There was a marked peak of sales for duct tape around the 22nd day of the month. 
-- Although the weatherproof jacket has the one of the highest production costs, second to the stainless-steel axe, it is sold at over 150% of its cost, which makes it the item with the highest profit margin. 
-- The duct tape and the N95 mask present the lowest production costs and prices. However, these results in very little profit.
+- Although the weatherproof jacket has one of the highest production costs, second only to the stainless-steel axe, it is sold for more than 150% of its cost, making it the item with the highest profit margin.
+- The duct tape and the N95 mask present the lowest production costs and prices. However, this results in very little profit.
 
 ## Results & Conclusions
 - The Minnesota appears to be a good option for shops that sell items for the apocalypse.
