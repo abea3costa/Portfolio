@@ -311,8 +311,14 @@ The objective of this project is to create an intuitive dashboard which showcase
   
 ## Tech Job Satisfaction Survey
 
+![Tech Job Satisfaction Survey]()
+
 ## Apocalypse Preparation Analysis
 
+![Apocalypse Preparation Analysis]()
+
+
+![Modeling Apocalypse]()
 
 
 # Azure
