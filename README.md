@@ -187,6 +187,16 @@ The objective of this project is to create an intuitive dashboard with sliders t
 - Analysis: Calculated average income and grouped customer data by gender to compare income and gender to bike purchases. Analysed bike purchases by age group and examined how commute distance to work influenced bike sales.
 - Visualisation: The dashboard features charts and graphs to visually display key insights derived from my analysis, making it easier to identify customer buying patterns. It also includes slicers to filter data based on additional factors such as marital status, region, education, and homeownership (Yes/No).
 
+## Key Findings
+- Based on the available sample, the customers who purchased the most bikes are males, middle aged customers, from the North American region and with commutes up to 1 mile. Customers with a bachelor’s degree, higher average incomes and home owners also buy more bikes.  
+
+## Results & Conclusions
+- To increase bike sales in other age groups, discounts can be offered to adolescents and the elderly, as they typically have lower incomes compared to middle aged people.
+- To boost sales among women, marketing strategies can focus on designing bikes that are more comfortable and visually appealing to them. For instance, conducting a survey to understand what women look for when purchasing a bike (e.g. colour, seat type, attached basket, etc.) could provide valuable insights.
+
+## Challenges & Limitations
+- The dataset contained a good quality sample of the bike shop customers and it allowed me to explore how a variety of factors affected bike sales. 
+
 
 # Tableau
 
