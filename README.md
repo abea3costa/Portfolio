@@ -45,9 +45,12 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
   - Azure
     - [Paws & Whiskers transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
 
+
 ## Portfolio Projects
 
 This repository contains a collection of projects which showcase my work and skills as a Data Analyst. 
+
+
 
 ## Python
 
@@ -91,6 +94,7 @@ This project aims to analyse how different estimates relate to each other. The d
 - 11% of the cells in this dataset contained missing values, which is fairly substantial. Although these values were replaced with average estimates, this likely impacted the accuracy of the analysis.
 
 
+
 ## BMI Calculator in Python (Jupyter Notebook)
 
 ### Overview
@@ -125,11 +129,15 @@ BMI=(weight/((height*0.01)2))
 - Matplotlib: Visualization tools, like creating plots to show BMI categories or trends over time (if extended functionality is implemented).
 - Pandas: Can be used for collecting, storing, or analysing data, such as BMI data of multiple users.
 
+
+
 # MySQL
 
 ## Data Cleaning and Modelling
 
 ## Tech Layoffs - Exploratory Data Analysis
+
+
 
 # Excel
 
@@ -167,6 +175,7 @@ This project’s objective is to create an intuitive dashboard including the key
 - The dataset lacked information on the types of coffee beans and the suppliers, which would have been helpful in identifying the cause of the reduced revenue in April and exploring more targeted alternatives to address the issue.
 
 
+
 ## Bike Sales Dashboard
 
 ![Bike Sales](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Bike%20Sales.png)
@@ -196,6 +205,7 @@ The objective of this project is to create an intuitive dashboard with sliders t
 
 ## Challenges & Limitations
 - The dataset contained a good quality sample of the bike shop customers and it allowed me to explore how a variety of factors affected bike sales. 
+
 
 
 # Tableau
@@ -233,6 +243,7 @@ The objective of this project is to create an intuitive dashboard which highligh
 ## Challenges & Limitations
 - Cancer rates are notably high in Asia, Europe, and the Americas, but these rates may not be as high in other continents due to a lack of reliable data from those regions.
 - Examining environmental factors, such as air pollution and exposure to carcinogens, could offer further insights into the rising cancer rates.
+
 
 
 ## Spotify Listeners Analysis
@@ -273,6 +284,7 @@ The objective of this project is to create an intuitive dashboard which highligh
   - Introduce suggestions based on diverse listening patterns from users with similar but distinct tastes, encouraging a mix of familiar and novel tracks.
 
 
+
 ## Gaming Sales
 
 ![Gaming Sales Analysis](https://github.com/abea3costa/Portfolio/blob/main/Tableau%20Dashboards/Gaming%20Sales%20Analysis.png)
@@ -307,11 +319,14 @@ The objective of this project is to create an intuitive dashboard which showcase
 - The long names of video game publishers and titles can impact the dashboard’s design, affecting both its visual appeal and readability. Abbreviating names would compromise the clarity of the charts, making them difficult to interpret.
 
 
+
 # Power BI
   
 ## Tech Job Satisfaction Survey
 
 ![Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Professional%20Survey%20Breakdown.png)
+
+
 
 ## Apocalypse Preparation Analysis
 
