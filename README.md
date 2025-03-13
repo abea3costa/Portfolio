@@ -149,10 +149,25 @@ In this project my aim is to clean the dataset using MySQL. I will start by remo
 
 ## Methodology
 1.	Created a copy of the dataset to keep the original intact.
+![ss1]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Data%20Cleaning%201.png)
 2.	Removed duplicates using a CTE (Common Table Expressions) and creating row number column. This method allows me to identify unique rows (row number=1) and duplicates (row number>1).
+![ss2]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Removing%20duplicates.png)
+![ss3]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Removing%20duplicates%202.png)
 3.	Standardised data – using the TRIM() function and converted the dates from string to date data types, in a uniform format.
+
+  TRIM() function
+![ss4]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20After.png)
+![ss5]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20After%202.png)
+
+  Data type conversion (String to Date)
+![ss6]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20Date%20format%20After.png)
+
+  INNER JOIN to address missing data in industry column
+![ss7]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20Join%20to%20populate%20industry.%20png.png)
 4.	Handled missing values and/or NULL values – used an INNER JOIN to fill in missing and NULL values for industry, utilising data from other rows belonging to the same company and location. There was a significant number of rows which had no data for total_laid_off and percentage_laid_off. I proceeded to delete these as they would make the analysis less accurate and more difficult.
-5.	Deleted irrelevant columns 
+5.	Deleted irrelevant columns
+![ss8]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Null%20values%20After.png)
+
 
 ## Key Findings
 - Clean data leads to more accurate and reliable analysis results, enabling better decision-making. 
