@@ -30,7 +30,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [GDP (nominal) per Capita](https://github.com/abea3costa/Portfolio/blob/main/README.md#gdp-nominal-per-capita)
     - [BMI Calculator in Python (Jupyter Notebook)](https://github.com/abea3costa/Portfolio/blob/main/README.md#bmi-calculator-in-python-jupyter-notebook)
   - MySQL
-    - [Data Cleaning and Modelling](https://github.com/abea3costa/Portfolio/blob/main/README.md#data-cleaning-and-modelling)
+    - [Data Cleaning](https://github.com/abea3costa/Portfolio/blob/main/README.md#data-cleaning)
     - [Tech Layoffs - Exploratory Data Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-layoffs---exploratory-data-analysis)
   - Excel
     - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
@@ -133,7 +133,7 @@ BMI=(weight/((height*0.01)2))
 
 # MySQL
 
-## Data Cleaning and Modelling
+## Data Cleaning
 
 ## Tech Layoffs - Exploratory Data Analysis
 
