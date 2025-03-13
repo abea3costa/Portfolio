@@ -135,6 +135,39 @@ BMI=(weight/((height*0.01)2))
 
 ## Data Cleaning
 
+# Data Cleaning
+
+## Overview
+In this project my aim is to clean the dataset using MySQL. I will start by removing supplicates, standardising the data, handling missing/NULL values and finally deleting irrelevant columns.
+
+## Technologies Used
+- MySQL Workbench (version 8.0.38)
+
+## Dataset Description
+- The dataset consists of 2361 records featuring the various tech companies’ layoff and redundancies data including columns such as industry, country, location, percentage layoff and total layoff. 
+- Source: AlexTheAnalyst GitHub: [Company layoffs]( https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv) 
+
+## Methodology
+1.	Created a copy of the dataset to keep the original intact.
+2.	Removed duplicates using a CTE (Common Table Expressions) and creating row number column. This method allows me to identify unique rows (row number=1) and duplicates (row number>1).
+3.	Standardised data – using the TRIM() function and converted the dates from string to date data types, in a uniform format.
+4.	Handled missing values and/or NULL values – used an INNER JOIN to fill in missing and NULL values for industry, utilising data from other rows belonging to the same company and location. There was a significant number of rows which had no data for total_laid_off and percentage_laid_off. I proceeded to delete these as they would make the analysis less accurate and more difficult.
+5.	Deleted irrelevant columns 
+
+## Key Findings
+- Clean data leads to more accurate and reliable analysis results, enabling better decision-making. 
+- By removing noise and errors, data cleaning helps to reveal meaningful patterns and insights. 
+- Improving data quality can reduce costs associated with data storage, processing, and analysis. 
+- Clean data can lead to better business outcomes by enabling more informed and data-driven decisions. 
+
+## Results & Conclusions
+- This project allowed me to enhance and strengthen my data cleaning skills with MySQL. Data cleaning is such a crucial part of any data analysis or database management process, and MySQL offers powerful features such as UPDATE, DELETE, REPLACE, and the use of JOIN and CASE statements which make for an efficient data cleaning process.
+
+## Challenges & Limitations
+- I encountered some issues when running the INNER JOIN in order to find and delete the NULL and missing values. However, after seeking further material and reviewing the Just IT class materials on Joins in MySQL, I managed to correct the simple syntax problem I had.
+
+
+
 ## Tech Layoffs - Exploratory Data Analysis
 
 
