@@ -225,7 +225,7 @@ The objective of this project is to create an intuitive dashboard which highligh
 - Source: JustIT Data Technician Bootcamp: [World Health Organisation (WHO) cancer rates 1990-2008](Day_2_Task_2_Health_Survey.twbx)
 
 ## Methodology
-- Visualisation: The dashboard contains a heatmap, a table, a pie chart and several bar charts, to visually represent key insights regarding cancer rates across the globe, making it easier to identify a growing trend over time and risk factor patterns.
+- Visualisation: The dashboard contains a heatmap, a table, a pie chart, colunm and bar charts, to visually represent key insights regarding cancer rates across the globe, making it easier to identify a growing trend over time and risk factor patterns.
 - User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
 - Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
 
@@ -300,7 +300,7 @@ The objective of this project is to create an intuitive dashboard which showcase
 - Source: JustIT Data Technician Bootcamp: [Videogame Sales](Day_2_Gaming_Sales.twbx)
 
 ## Methodology
-- Visualisation: The dashboard features several visualizations, such as line charts and several bar charts, to showcase the number of video game releases over time, global and european sales trends, and the most profitable video games, genres, and platforms (e.g., PS2, Wii, Nintendo DS, etc.).
+- Visualisation: The dashboard features several visualizations, such as line charts, bar charts and a column chart, to showcase the number of video game releases over time, global and european sales trends, and the most profitable video games, genres, and platforms (e.g., PS2, Wii, Nintendo DS, etc.).
 - User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
 - Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
 
@@ -380,7 +380,7 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 - Managing relationships: On the Model view tab, established the relationships by linking the tables by Customer ID and Product ID.
 ![Modeling Apocalypse](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Data%20Modelling%20Apocalypse.png)
 - Data Cleaning: Removed duplicates, used DAX to split columns by delimiters, to make it easier to correct the data type of the price column. Standardized the format and ensured all columns had the appropriate data types.
-- Visualisation: The dashboard features cards, a table, a scatter plot, a donut chart, a line chart, and two bar charts to showcase popular product choices, units sold over time, customer purchases across different US states, and the correlation between price and cost.
+- Visualisation: The dashboard features cards, a table, a scatter plot, a donut chart, a line chart, one bar chart and two column charts to showcase popular product choices, units sold over time, customer purchases across different US states, and the correlation between price and cost.
 - User-Friendly Interface: The dashboard is designed with a user-friendly interface, ensuring easy navigation and accessibility.
 - Customizable: The dashboard is highly customizable, allowing users to add or modify charts and tables based on specific changes in data.
 
