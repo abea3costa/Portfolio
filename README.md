@@ -157,12 +157,12 @@ In this project my aim is to clean the dataset using MySQL. I will start by remo
 
 3.	Standardised data – using the TRIM() function and converted the dates from string to date data types, in a uniform format.
 
-  TRIM() function
-  ![ss4]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20After.png)
-  ![ss5]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20After%202.png)
+- TRIM() function
+![ss4]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20After.png)
+![ss5]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20After%202.png)
 
-  Data type conversion (String to Date)
-  ![ss6]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20Date%20format%20After.png)
+- Data type conversion (String to Date)
+![ss6]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20Date%20format%20After.png)
 
 4.	Handled missing values and/or NULL values – used an INNER JOIN to fill in missing and NULL values for industry, utilising data from other rows belonging to the same company and location. There was a significant number of rows which had no data for total_laid_off and percentage_laid_off. I proceeded to delete these as they would make the analysis less accurate and more difficult.
 ![ss7]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20Join%20to%20populate%20industry.%20png.png)
