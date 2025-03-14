@@ -229,7 +229,7 @@ In this project I will be performing some exploratory data analysis in order to 
 ![EDA12]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%2012-%20last%20CTE.png)
 
 ## Key Findings
-- This dataset contains information regarding the period starting from 3rd November 2020 to 3rd June 2023. There was a total of 385,879 employees fired over this period.
+- This dataset covers the period from November 3, 2020, to June 3, 2023, during which a total of 385,879 employees were laid off from tech companies.
 - The year 2022 was marked by the highest number of layoffs for the registered period with a total of 161711 employees.
 - 116 companies fired all their employees.
 - The top 5 companies that fired the most employees were Amazon, Google, Meta, Salesforce and Phillips. Google held the highest average layoffs, followed by Meta and Microsoft. 
