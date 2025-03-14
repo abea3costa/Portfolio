@@ -219,7 +219,7 @@ In this project I will be performing some exploratory data analysis in order to 
 ![EDA7]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%207%20-%20average%20layoffs.png)
 - I created a substring to extract the year and month from the full date and then sorted the data by year using ORDER BY. Next, I used the substring logic within a set of statements to build a CTE, which allowed me to calculate the rolling total of layoffs. 
 ![EDA8]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%208%20-%20rolling%20total.png)
-- Used the SUM and ROUND functions on the decimal_percent_layoff, GROUP BY company, and SORT BY…DESC to see if there were any companies that fired all their employees twice over the registered period.
+- I used the SUM and ROUND functions on the decimal_percent_layoff, grouped the data by company, and sorted it in descending order (SORT BY...DESC) to identify any companies that might have fired all their employees twice during the registered period.
 ![EDA9]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%209%20-%20companies%20that%20fired%20all%20employes%20more%20than%20once.png)
 - Created a CTE to find out the top 5 companies with most layoffs sorted by year using DENSE_RANK() OVER(PARTITION BY…ORDER BY…DESC)
 ![EDA10]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%2010%20-%20top%205%20by%20year.png)
