@@ -187,6 +187,67 @@ In this project my aim is to clean the dataset using MySQL. I will start by remo
 
 ## Tech Layoffs - Exploratory Data Analysis
 
+## Overview
+In this project I will be performing some exploratory data analysis in order to obtain some insights into tech companies’ layoffs between November 2020 and June 2023.
+
+## Technologies Used
+- MySQL Workbench (version 8.0.38)
+
+## Dataset Description
+- The dataset consists of 2361 records featuring the various tech companies’ layoff and redundancies data including columns such as industry, country, location, percentage layoff and total layoff. 
+- Source: AlexTheAnalyst GitHub: [Company layoffs]( https://github.com/AlexTheAnalyst/MySQL-YouTube-Series/blob/main/layoffs.csv) 
+
+## Methodology
+- Started by having a look at the data overall using the SELECT statement. 
+- Queried the maximum total_laid_off and maximum percentage_laid_off utilising the SELECT and MAX statements. 
+- Used RENAME to change the percentage_laid_off column name to decimal_percent_layoff as the values aren’t presented as percentages, but decimal/proportional representations of percentages (e.g. 1 instead of 100%).
+-Proceeded to filter the data with the WHERE statement and sorted the total_laid_off data from highest to lowest with ORDER BY… DESC.
+![EDA1]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%201%20-%20max%20and%20rename.png)
+- Applied the same technique, but used ORDER BY… DESC on funds_raised_millions find out how much money had been obtained making employees redundant.
+![EDA2]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%202%20-%20frm.png)
+- Confirmed the exact dates this dataset was referring to using MIN(‘date’) and MAX(‘date’)
+- Calculated the companies who fired the most employees using the SUM(total_laid_off), GROUP BY company and sort by the total layoffs using ORDER BY … DESC.
+![EDA3]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%203%20-%20who%20fired%20the%20most.png)
+- A CTE allowed me to count the total number of companies that fired all their employees.
+![EDA3.1]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%203%20-%20how%20many%20fired%20100percent.png)
+- Proceeded the same way to find out the industries with the most layoffs and the countries with the most layoffs.
+![EDA4]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%204%20-%20who%20fired%20the%20most-industry.png)
+![EDA5]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%205%20-%20who%20fired%20the%20most-country.png)
+- Found out which year had the most layoffs using YEAR(‘date’), SUM(total_laid_off), GROUP BY and ORDER BY. There were a few NULL values on the year, so I proceeded to not include them in my result using the WHERE clause.
+![EDA6]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%206-%20yearly%20layoffs.png)
+- Used the AVG function and ROUND to calculate the average total layoffs by company.
+![EDA7]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%207%20-%20average%20layoffs.png)
+- Created a Substring to select the year and the month out of the full date and sorted the date by year with ORDER BY. After, I used the substring set of statements to create a CTE in order to calculate the rolling total layoffs.
+![EDA8]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%208%20-%20rolling%20total.png)
+- Used the SUM and ROUND functions on the decimal_percent_layoff, GROUP BY company, and SORT BY…DESC to see if there were any companies that fired all their employees twice over the registered period.
+![EDA9]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%209%20-%20companies%20that%20fired%20all%20employes%20more%20than%20once.png)
+- Created a CTE to find out the top 5 companies with most layoffs sorted by year using DENSE_RANK() OVER(PARTITION BY…ORDER BY…DESC)
+![EDA10]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%2010%20-%20top%205%20by%20year.png)
+- Created a CTE to find out the top months (and associated year) the maximum layoffs had been registered. 
+![EDA11]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%2011%20-%20top%20month%20max%20layoffs.png)
+- Created another CTE to rank the month (and associated year) with the highest total_laid_off.
+![EDA12]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%2012-%20last%20CTE.png)
+
+## Key Findings
+- This dataset contains information regarding the period starting from 3rd November 2020 to 3rd June 2023. There was a total of 385,879 employees fired over this period.
+- The year 2022 was marked by the highest number of layoffs for the registered period with a total of 161711 employees.
+- 116 companies fired all their employees.
+- The top 5 companies that fired the most employees were Amazon, Google, Meta, Salesforce and Phillips. Google held the highest average layoffs, followed by Meta and Microsoft. 
+- The top 5 industries with most employees fired were consumer, retail, other, transportation and finance. 
+- The top 5 countries with most layoffs registered were the United States, India, the Netherlands, Sweden and Brazil.
+- Here are the top 5 companies with most layoffs per year in order of most layoffs:
+	- 2020: Uber, Booking.com, Groupon, Swiggy and Airbnb
+	- 2021: Bytedance, Katerra, Zillow, Instacart and WhiteHat Jr.
+	- 2022: Meta, Amazon, Cisco, Peloton, Carvana and Phillips (sharing the 5th place)
+	- 2023: Google, Microsoft, Ericsson, Amazon and Salesforce (sharing the 4th place) and Dell. 
+- The month with the highest layoffs was April 2020 with 26,710 employees getting fired. May, March, June and July of 2020 follow, completing the top 5 months with most layoffs registered. 
+
+## Results & Conclusions
+- This project was a great opportunity for me to assess my understanding of Structured Query Language (SQL). It highlighted certain areas, like CTEs, that required more focus. After seeking out additional resources to practice CTEs, I became much more confident and improved my skills with them. Completing this project helped me solidify my SQL knowledge, and I now feel more confident in handling similar challenges with greater ease moving forward.
+
+## Challenges & Limitations
+- It seemed as though a company named Service had laid off all its employees on two separate occasions between November 2020 and June 2023. However, the 100% layoffs were actually logged twice, just four days apart—once on March 16, 2020, and again on March 20, 2020. It's likely that these two records refer to the same event, recorded twice.
+- Some of the CTEs were quite complex to write, so I practiced using the same dataset and delved into additional materials and real-life exercises to continue improving my skills in writing CTEs at the same level of difficulty.
 
 
 # Excel
