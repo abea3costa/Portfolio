@@ -164,10 +164,10 @@ In this project my aim is to clean the dataset using MySQL. I will start by remo
 - Data type conversion (String to Date)
 ![ss6]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20data%20Date%20format%20After.png)
 
-4.	Handled missing values and/or NULL values – used an INNER JOIN to fill in missing and NULL values for industry, utilising data from other rows belonging to the same company and location. There was a significant number of rows which had no data for total_laid_off and percentage_laid_off. I proceeded to delete these as they would make the analysis less accurate and more difficult.
+4.	Handled missing values and/or NULL values – used an INNER JOIN to fill in missing and NULL values for industry, utilising data from other rows belonging to the same company and location.
 ![ss7]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Standerdising%20Join%20to%20populate%20industry.%20png.png)
 
-5.	Deleted irrelevant columns
+5.	There was a significant number of rows which had no data for total_laid_off and percentage_laid_off. I proceeded to delete these as they would make the analysis less accurate and more difficult. I also deleted irrelevant columns.
 ![ss8]( https://github.com/abea3costa/Portfolio/blob/main/MySQL%20SS/Null%20values%20After.png)
 
 
