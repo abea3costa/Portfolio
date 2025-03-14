@@ -240,7 +240,7 @@ In this project I will be performing some exploratory data analysis in order to 
 	- 2021: Bytedance, Katerra, Zillow, Instacart and WhiteHat Jr.
 	- 2022: Meta, Amazon, Cisco, Peloton, Carvana and Phillips (sharing the 5th place)
 	- 2023: Google, Microsoft, Ericsson, Amazon and Salesforce (sharing the 4th place) and Dell. 
-- The month with the highest layoffs was April 2020 with 26,710 employees getting fired. May, March, June and July of 2020 follow, completing the top 5 months with most layoffs registered. 
+- The month with the highest number of layoffs was April 2020, with 26,710 employees being fired. Following April, the months with the most layoffs were May, March, June, and July of 2020, completing the top 5 months with the highest number of layoffs registered. 
 
 ## Results & Conclusions
 - This project was a great opportunity for me to assess my understanding of Structured Query Language (SQL). It highlighted certain areas, like CTEs, that required more focus. After seeking out additional resources to practice CTEs, I became much more confident and improved my skills with them. Completing this project helped me solidify my SQL knowledge, and I now feel more confident in handling similar challenges with greater ease moving forward.
