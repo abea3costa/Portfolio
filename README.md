@@ -217,7 +217,7 @@ In this project I will be performing some exploratory data analysis in order to 
 ![EDA6]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%206-%20yearly%20layoffs.png)
 - Used the AVG function and ROUND to calculate the average total layoffs by company.
 ![EDA7]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%207%20-%20average%20layoffs.png)
-- Created a Substring to select the year and the month out of the full date and sorted the date by year with ORDER BY. After, I used the substring set of statements to create a CTE in order to calculate the rolling total layoffs.
+- I created a substring to extract the year and month from the full date and then sorted the data by year using ORDER BY. Next, I used the substring logic within a set of statements to build a CTE, which allowed me to calculate the rolling total of layoffs. 
 ![EDA8]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%208%20-%20rolling%20total.png)
 - Used the SUM and ROUND functions on the decimal_percent_layoff, GROUP BY company, and SORT BY…DESC to see if there were any companies that fired all their employees twice over the registered period.
 ![EDA9]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%209%20-%20companies%20that%20fired%20all%20employes%20more%20than%20once.png)
