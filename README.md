@@ -210,7 +210,7 @@ In this project I will be performing some exploratory data analysis in order to 
 ![EDA3]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%203%20-%20who%20fired%20the%20most.png)
 - A CTE allowed me to count the total number of companies that fired all their employees.
 ![EDA3.1]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%203%20-%20how%20many%20fired%20100percent.png)
-- Proceeded the same way to find out the industries with the most layoffs and the countries with the most layoffs.
+- I discovered which industries had the most layoffs and identified the countries that experienced the highest number of layoffs.
 ![EDA4]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%204%20-%20who%20fired%20the%20most-industry.png)
 ![EDA5]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%205%20-%20who%20fired%20the%20most-country.png)
 - Found out which year had the most layoffs using YEAR(‘date’), SUM(total_laid_off), GROUP BY and ORDER BY. There were a few NULL values on the year, so I proceeded to not include them in my result using the WHERE clause.
