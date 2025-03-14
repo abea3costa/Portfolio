@@ -200,7 +200,7 @@ In this project I will be performing some exploratory data analysis in order to 
 ## Methodology
 - Started by having a look at the data overall using the SELECT statement. 
 - Queried the maximum total_laid_off and maximum percentage_laid_off utilising the SELECT and MAX statements. 
-- Used RENAME to change the percentage_laid_off column name to decimal_percent_layoff as the values aren’t presented as percentages, but decimal/proportional representations of percentages (e.g. 1 instead of 100%).
+- Used RENAME to change the percentage_laid_off column name to decimal_percent_layoff as the values aren’t presented as percentages, but as decimal/proportional representations of percentages (e.g. 1 instead of 100%).
 - Proceeded to filter the data with the WHERE statement and sorted the total_laid_off data from highest to lowest with ORDER BY… DESC.
 ![EDA1]( https://github.com/abea3costa/Portfolio/blob/main/Tech%20layoffs%20analysis/EDA%201%20-%20max%20and%20rename.png)
 - Applied the same technique, but used ORDER BY… DESC on funds_raised_millions find out how much money had been obtained making employees redundant.
