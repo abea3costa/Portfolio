@@ -159,7 +159,7 @@ This database system will serve as the foundation of the retail business, facili
 # Data Cleaning
 
 ## Overview
-In this project my aim is to clean the dataset using MySQL. I will start by removing supplicates, standardising the data, handling missing/NULL values and finally deleting irrelevant columns.
+In this project my aim is to clean the dataset using MySQL. I will start by removing duplicates, standardising the data, handling missing/NULL values and finally deleting irrelevant columns.
 
 ## Technologies Used
 - MySQL Workbench (version 8.0.38)
