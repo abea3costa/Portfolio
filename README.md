@@ -44,7 +44,7 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
     - [Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-job-satisfaction-survey)
     - [Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#apocalypse-preparation-analysis)
   - Azure
-    - [Paws & Whiskers transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
+    - ["Paws & Whiskers" Transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
 
 
 ## Portfolio Projects
@@ -537,7 +537,7 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 
 # Azure
 
-## Paws & Whiskers transition to Microsoft Azure
+## "Paws & Whiskers" Transition to Microsoft Azure
 
 ### Overview
 This project is an analysis of the Microsoft Azure products most suitable for "Paws and Whiskers", a pet shop aiming to expand its business. The main focus is the optimisation of data storage, analysis, and reporting to help the business make data-driven decisions as it grows.
