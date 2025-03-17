@@ -17,9 +17,9 @@ I hold a Bachelor of Science degree with a strong foundation in mathematics and 
                     </p>
 
 ### Socials
-[Website](https://sites.google.com/view/bc-data-analyst/home)  
-[LinkedIn](http://www.linkedin.com/in/beatriz-costa-0097b1355) 
-[GitHub](https://github.com/abea3costa/Portfolio)
+- [Website](https://sites.google.com/view/bc-data-analyst/home)  
+- [LinkedIn](http://www.linkedin.com/in/beatriz-costa-0097b1355) 
+- [GitHub](https://github.com/abea3costa/Portfolio)
 
                     
 ### [Curriculum Vitae](https://github.com/abea3costa/Portfolio/blob/main/CVBCpublic.pdf)
