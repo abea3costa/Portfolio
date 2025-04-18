@@ -5,7 +5,11 @@ Data Analyst
 ------------
 
 ### About
-I hold a Bachelor of Science degree with a strong foundation in mathematics and statistics, and have successfully completed the Just IT Data Technician Bootcamp. I transitioned from clinical work into data analysis to explore my enthusiasm for identifying patterns and trends. During my journey, I’ve honed my technical skills using tools like MySQL, Excel, Power BI, Tableau, Python, and R. My goal is to leverage my skills to help organizations make data-driven decisions and promote business growth. Looking for new opportunities to grow professionally and make meaningful contributions as a Data Analyst. I’m excited to apply my experience with BI tools and my problem-solving mindset to real-world data challenges. I’m always seeking new opportunities for personal and professional development, and I'm eager to collaborate on exciting projects!
+I'm a Data Analyst based in Newcastle Upon Tyne.
+I have a Bachelor of Science degree with a focus on mathematics and statistics, along with a certification as a Just IT Data Technician Graduate. I transitioned from clinical work in the NHS into data analysis to explore my enthusiasm for identifying patterns and trends.
+During my journey, I’ve honed my technical skills using tools like MySQL, Excel, Power BI, Tableau, Python, and R. My goal is to leverage my skills to help organizations make data-driven decisions and promote business growth. 
+Looking for new opportunities to grow professionally and make meaningful contributions as a Data Analyst. I’m excited to apply my experience with BI tools and my problem-solving mindset to real-world data challenges. 
+I’m deeply committed to personal and professional development, and I'm eager to collaborate on exciting projects! 
 
 *   🌍  I'm based in Newcastle Upon Tyne
 *   🧠  I'm learning the best ways to showcase my skills
