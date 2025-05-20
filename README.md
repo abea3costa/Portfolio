@@ -370,7 +370,7 @@ The aim of this project is to develop a structured database and an intuitive, sl
 
 - The Outcome Score was calculated in the following manner:
 
-!(outcome_score)[]
+![outcome_score](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/outcome_score.png)
 
 - Data transformation: Power Query was used to preprocess and reshape the dataset for analysis. The “Support Services Accessed” column was split by delimiter (comma), then unpivoted to consolidate all services into a single column. This transformation allowed the data to be loaded into a Pivot Table, enabling analysis of the most frequently accessed services. To perform distinct counts of veteran IDs in the Pivot Tables, the data was loaded into the Data Model using Power Pivot. Within the data model, an IF statement was applied to create a new column categorizing veterans into age brackets, enabling age-based segmentation in the analysis.
 - Visualisation: The dashboard includes a variety of visuals designed to highlight both demographic distributions and key service insights: two slicers, four cards, a line chart, two column charts, two bar charts and a pie chart. These visuals display how factors like employment status and support services accessed impact average outcome scores and housing status.
