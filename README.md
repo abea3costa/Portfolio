@@ -42,7 +42,7 @@ I’m deeply committed to personal and professional development, and eager to co
   - Excel
     - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
     - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
-    - [Veteran Housing Dashboard]()
+    - [Veteran Housing Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#veteran-housing-dashboard)
   - Tableau
     - [WHO Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#who-health-survey)
     - [Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#spotify-listeners-analysis)
