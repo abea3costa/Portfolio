@@ -540,7 +540,7 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 ## Challenges & Limitations
 - Although this is a fictional dataset, it offered valuable experience using Power BI’s model view, establishing relationships, and extracting meaningful insights related to retail sales and valuable marketing strategy research, all of which are applicable to similar real-life scenarios.
 
-## Customer Satisfaction Survey
+# Customer Satisfaction Survey
 
 ![Customer Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Dashboard_customer_feedback.png)
 
