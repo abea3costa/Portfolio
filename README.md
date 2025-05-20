@@ -349,7 +349,56 @@ The objective of this project is to create an intuitive dashboard with sliders t
 
 ## Veteran Housing Dashboard
 
-![Veteran Housing dash](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Veteran%20Housing%20dash.png)
+![Veteran Housing dash]( https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Veteran%20Housing%20dash.png)
+## Overview
+The aim of this project is to develop a structured database and an intuitive, slider-driven dashboard that highlights key insights from the analysis of veteran housing services and demographics. The focus is on evaluating the types and frequency of support services accessed, priority status, employment status, and how these factors influence the overall outcome score and housing status.
+## Technologies Used
+-Python: Utilized libraries such as pandas, random, and NumPy to create and manipulate the dataset for database generation.
+-Jupyter Notebook: Provided an interactive environment for coding, allowing for easy documentation, visualisation of outputs, and demonstration of the data processing workflow.
+- Microsoft Excel: Employed Power Query and Power Pivot for data transformation and modeling. Used IF statements to categorize veterans’ ages into intervals, and created pivot tables, pivot charts, and sliders to design an intuitive and visually engaging dashboard.
+
+## Dataset Description
+- The dataset includes 101 records, each representing a veteran seeking housing assistance. It captures a range of demographic and service-related details, including: age, gender, employment status, and number of children; support services accessed; reasons for priority housing; current housing status and outcome score reflecting the effectiveness or result of housing support.
+- Source: [Veteran Housing Dataset](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Veteran_Housing_Support_Dataset.xlsx) 
+
+## Methodology
+- The dataset was created using Python, following a series of structured steps as demonstrated in the code screenshots provided below from the Jupyter Notebook. The process involved generating synthetic data for key variables such as demographics, service usage, and outcome scores, using libraries like pandas, random, and NumPy. This allowed for a realistic and consistent dataset suitable for analysis and dashboard visualization.
+![db_creation_1](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Db_creation_i.png)
+![db_creation_2](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Db_creation_ii.png)
+
+- The Outcome Score was calculated in the following manner:
+
+!(outcome_score)[]
+
+- Data transformation: Power Query was used to preprocess and reshape the dataset for analysis. The “Support Services Accessed” column was split by delimiter (comma), then unpivoted to consolidate all services into a single column. This transformation allowed the data to be loaded into a Pivot Table, enabling analysis of the most frequently accessed services. To perform distinct counts of veteran IDs in the Pivot Tables, the data was loaded into the Data Model using Power Pivot. Within the data model, an IF statement was applied to create a new column categorizing veterans into age brackets, enabling age-based segmentation in the analysis.
+- Visualisation: The dashboard includes a variety of visuals designed to highlight both demographic distributions and key service insights: two slicers, four cards, a line chart, two column charts, two bar charts and a pie chart. These visuals display how factors like employment status and support services accessed impact average outcome scores and housing status.
+- User-Friendly Interface: The dashboard is built with usability in mind, offering a clean and intuitive layout that supports easy navigation and data exploration for users of all experience levels.
+- Customizable: The dashboard is highly flexible and can be easily updated. Users can add or modify charts, tables, and filters as new data becomes available or specific analytical needs change.
+
+## Key Findings
+- The majority of veterans seeking support are male and fall within the 40–49 age group.
+- The average outcome score is 49.5 out of 100, with a range from 0 to 80.
+- Outcome scores remained relatively stable between 40 and 60 during 2023 and 2024, with a peak of 62.5 in January 2024 and a notable drop to 32.5 in July 2024.
+- 90 veterans were assigned priority status, compared to 11 who were not.
+- The top three reasons for priority housing were: domestic abuse, homeless due to emergency and pregnancy in the household. 
+- The most commonly accessed services were: mental health support, job training and legal aid.
+- Veterans who accessed two services saw an 8% increase in average outcome scores, while those who accessed three services experienced a 13% increase.
+- A total of 32 veterans were in temporary housing, 29 veterans were in permanent housing, 29 had been rehoused and 11 had returned to homelessness.
+- 14 veterans were actively seeking employment, while 37 were unemployed. The remaining veterans were either in full-time or part-time employment, indicating that a smaller proportion had achieved employment stability.
+- Among the unemployed, 23 were accessing two or more support services, suggesting a potential link between service access and job readiness or support needs.
+
+## Results & Conclusions
+- Most veterans are males in their 40s, with the majority qualifying for priority housing due to serious personal or family-related issues. These findings reinforce the importance of trauma-informed, family-inclusive support services.
+- Access to support services positively correlates with improved outcomes. This suggests that multi-service engagement is a strong contributor to housing success and well-being, and should be encouraged wherever possible. 
+- While many veterans achieved stable housing, a portion returned to homelessness, indicating a need to examine post-placement support systems to ensure housing stability and prevent repeat episodes of homelessness. 
+- High unemployment rates among veterans point to the need for more focused job training and employment assistance programs.
+- Average outcome scores were generally stable but showed fluctuations, suggesting seasonal or systemic factors may influence support effectiveness. These fluctuations warrant further investigation to maintain consistent service quality year-round.
+
+## Challenges & Limitations
+- The dataset is entirely synthetic and was created solely for demonstration and educational purposes.
+- Key definitions—such as what qualifies as stable housing and how the outcome score is calculated—were based on simplified assumptions rather than standardized or real-world criteria.
+- The dataset lacks longitudinal tracking and unique client identifiers, which limits the ability to perform time-based or individual-level analyses.
+
 
 
 # Tableau
