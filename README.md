@@ -42,6 +42,7 @@ I’m deeply committed to personal and professional development, and eager to co
   - Excel
     - [Coffee Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#coffee-sales-dashboard)
     - [Bike Sales Dashboard](https://github.com/abea3costa/Portfolio/blob/main/README.md#bike-sales-dashboard)
+    - [Veteran Housing Dashboard]()
   - Tableau
     - [WHO Health Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#who-health-survey)
     - [Spotify Listeners Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#spotify-listeners-analysis)
@@ -343,9 +344,12 @@ The objective of this project is to create an intuitive dashboard with sliders t
 - To boost sales among women, marketing strategies can focus on designing bikes that are more comfortable and visually appealing to them. For instance, conducting a survey to understand what women look for when purchasing a bike (e.g. colour, seat type, attached basket, etc.) could provide valuable insights.
 
 ## Challenges & Limitations
-- The dataset contained a good quality sample of the bike shop customers and it allowed me to explore how a variety of factors affected bike sales. 
+- The dataset contained a good quality sample of the bike shop customers and it allowed me to explore how a variety of factors affected bike sales.
 
 
+## Veteran Housing Dashboard
+
+![Veteran Housing Dashboard]()
 
 # Tableau
 
@@ -540,7 +544,7 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 ## Challenges & Limitations
 - Although this is a fictional dataset, it offered valuable experience using Power BI’s model view, establishing relationships, and extracting meaningful insights related to retail sales and valuable marketing strategy research, all of which are applicable to similar real-life scenarios.
 
-# Customer Satisfaction Survey
+## Customer Satisfaction Survey
 
 ![Customer Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Dashboard_customer_feedback.png)
 
