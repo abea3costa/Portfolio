@@ -49,7 +49,7 @@ I’m deeply committed to personal and professional development, and eager to co
   - Power BI
     - [Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-job-satisfaction-survey)
     - [Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#apocalypse-preparation-analysis)
-    - [Customer Satisfaction Survey]()
+    - [Customer Satisfaction Survey](https://github.com/abea3costa/Portfolio/tree/main?tab=readme-ov-file#customer-satisfaction-survey)
   - Azure
     - ["Paws & Whiskers" Transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
 
@@ -542,7 +542,7 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 
 ## Customer Satisfaction Survey
 
-![Customer Satisfaction Survey]()
+![Customer Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/PowerBI%20Dashboards/Dashboard_customer_feedback.png)
 
 ## Overview
 The goal of this project is to develop an interactive, user-friendly dashboard that showcases key insights from a hotel chain’s customer satisfaction survey. The survey, created using MS Forms and Google Forms, can be integrated with the dashboard to enable real-time data updates.
