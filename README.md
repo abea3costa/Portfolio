@@ -49,6 +49,7 @@ I’m deeply committed to personal and professional development, and eager to co
   - Power BI
     - [Tech Job Satisfaction Survey](https://github.com/abea3costa/Portfolio/blob/main/README.md#tech-job-satisfaction-survey)
     - [Apocalypse Preparation Analysis](https://github.com/abea3costa/Portfolio/blob/main/README.md#apocalypse-preparation-analysis)
+    - [Customer Satisfaction Survey]()
   - Azure
     - ["Paws & Whiskers" Transition to Microsoft Azure](https://github.com/abea3costa/Portfolio/blob/main/README.md#paws--whiskers-transition-to-microsoft-azure)
 
@@ -539,6 +540,54 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 ## Challenges & Limitations
 - Although this is a fictional dataset, it offered valuable experience using Power BI’s model view, establishing relationships, and extracting meaningful insights related to retail sales and valuable marketing strategy research, all of which are applicable to similar real-life scenarios.
 
+## Customer Satisfaction Survey
+
+![Customer Satisfaction Survey]()
+
+## Overview
+The goal of this project is to develop an interactive, user-friendly dashboard that showcases key insights from a hotel chain’s customer satisfaction survey. The survey, created using MS Forms and Google Forms, can be integrated with the dashboard to enable real-time data updates.
+
+## Technologies Used
+- MS Forms (question and survey design)
+- Power BI (Table view, DAX, model view, split columns by delimiter, filters, visualisations formatting and editing)
+
+## Dataset Description
+The dataset comprises three tables:
+- Survey Responses: Each record represents an individual survey participant and includes information such as gender, date of birth, purpose of visit, checkout date, customer acquisition channel (“How did you discover us?”), Net Promoter Score (NPS) rating (“How likely are you to recommend us to a friend or colleague?”), and evaluations of various sub-categories.
+- Category Mapping: This table links each sub-category (e.g., “Staff attitude,” “Food quality”) to its corresponding main category—Facilities, Staff, Room, or Restaurant.
+- Rating Scale: This table defines the 5-star rating system, mapping qualitative feedback (e.g., Poor, Excellent) to numerical values (1 to 5).
+- Source: Lean Excel Solutions [Customer-Feedback-Dashboard-Data](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWlHakRib0JNLU4xZS1ITklmQXdVc1A5NERrZ3xBQ3Jtc0trUEczQ3B0cXF6ZDM4VUpkNDZlV1hnNnBTa3dmOWNkUWZsQ21rRkZBWTMyUmJKMGlUREQ5dFp6Sk5tQkFZLXZqTm05LVhCQWYyamV0clFHVlcwcVJ1UHpLV25QVUlXT2o5ZDZpS0FoSU5IYVVLMDRWbw&q=https%3A%2F%2Fleanexcelsolutions.com%2Fcustomer-analytics-dashboard-in-power-bi%2F&v=0mwToWeybS0)
+
+## Methodology
+- Survey design: ChatGPT was used to help identify the most relevant and effective questions for a customer satisfaction survey. The questionnaire was then created using both Microsoft Forms and Google Forms, chosen for their similar, intuitive interfaces and ease of use.
+- Data Transformation: Power Query Editor was used to process and clean the data. The general survey responses (e.g., gender, purpose of visit, checkout date, acquisition channel, overall rating, and NPS score) were separated from the category-specific feedback (e.g., staff, restaurant, rooms, and facilities ratings).
+For the category feedback, all columns except the customer ID were unpivoted to create a long-format table listing each sub-category alongside its rating. This table was then enriched using the Merge Queries function:
+- First, qualitative ratings (e.g., "Poor", "Excellent") were mapped to numerical scores (1–5).
+- Next, sub-categories were linked to their respective main categories (Staff, Room, Facilities, and Restaurant), adding a new column to identify the parent category for each feedback item.
+- Data model: In Power BI’s Model View, a one-to-many relationship was established between the “General Questions” table and the “Feedback Ratings” table via the customer participant ID. Due to the earlier transformations (where qualitative ratings were quantified and sub-categories mapped to main categories), additional relationships to supporting tables were no longer necessary.
+- NPS Score calculation: In the Table View, a new column was added to categorize respondents as Promoters, Detractors, or Passives using the following logic:
+NPS Category = IF(General[NPS Rating] > 8, "Promoters", IF(General[NPS Rating] < 7, "Detractors", "Passives")). Three measures were then created: NPS Promoters %, NPS Detractors % and Overall NPS Score (Promoters % − Detractors %).
+- Visualisation: The dashboard features a range of interactive visual elements, including three slicers, two bar charts, one column chart (with drill-down functionality for exploring average ratings by category), one gauge, two donut charts, and a ribbon chart. These visuals are designed to clearly present key trends, performance across service areas, and the distribution of Net Promoter Score (NPS) ratings.
+- User-Friendly Interface: The dashboard was designed for clarity and ease of use, allowing users to navigate and interpret data effortlessly.
+- Real-time updates: By integrating the dashboard with Microsoft Forms, survey responses are automatically updated in real-time whenever a new submission is received.
+
+## Key Findings
+- A total of 1,948 participants completed the survey, with 56.26% identifying as male and 43.74% as female.
+- The majority of guests (42.51%) reported visiting the hotel for business purposes.
+- Customer acquisition was primarily through organizational referrals. Channels such as hotel booking sites, search engines, and word of mouth showed fluctuating trends over the period from February 2020 to December 2022, often appearing to "compete" for the second-most common source of discovery.
+- The hotel received an overall average rating of 3.60 out of 5.00 from survey participants.
+- Among the main service categories:
+	- Staff received the highest ratings, averaging 3.76/5.00, with the check-in experience rated particularly well at 3.84/5.00.
+	- The hotel restaurant received the lowest average rating at 2.43/5.00, with food variety being a particular area of concern, scoring just 1.86/5.00.
+- The Net Promoter Score (NPS) was +9.75, indicating that the hotel has more promoters than detractors, though there is still room for improvement in overall customer advocacy.
+
+## Results & Conclusions
+- The hotel excels in staff performance and services for business travelers, but there is a clear need to improve food and beverage offerings, particularly in variety. Focusing on weaker areas while continuing to invest in strengths can lead to higher customer satisfaction and stronger brand advocacy.
+- The guest demographic is relatively balanced, with a slight male majority. The high proportion of business travellers underscores the importance of maintaining excellent service in areas they value most—such as efficient check-in, professional staff, and comfortable accommodations.
+- The majority of guests learned about the hotel through their organizations, highlighting the value of corporate partnerships. However, channels like booking sites, search engines, and word of mouth are also influential. Strengthening these secondary channels through digital marketing, SEO, and referral programs could help broaden the hotel’s customer base.
+
+## Challenges & Limitations
+- The dataset used for this project was sourced from the Lean Excel Solutions YouTube channel and intended solely for simulation and educational purposes. While the survey design process was carefully followed, the form was not published or connected to the final dashboard. As a result, real-time data integration was not demonstrated in this project. However, the exercise provided valuable experience in the end-to-end process of survey creation, data transformation, and dashboard development. This knowledge can now be applied in real-world scenarios—enabling the design and deployment of live surveys, direct data connections, and automated dashboard updates.
 
 
 # Azure
