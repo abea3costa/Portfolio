@@ -349,7 +349,8 @@ The objective of this project is to create an intuitive dashboard with sliders t
 
 ## Veteran Housing Dashboard
 
-![Veteran Housing Dashboard]()
+![Veteran Housing dash](https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Veteran%20Housing%20dash.png)
+
 
 # Tableau
 
