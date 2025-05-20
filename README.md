@@ -350,11 +350,13 @@ The objective of this project is to create an intuitive dashboard with sliders t
 ## Veteran Housing Dashboard
 
 ![Veteran Housing dash]( https://github.com/abea3costa/Portfolio/blob/main/Excel%20Dashboards/Veteran%20Housing%20dash.png)
+
 ## Overview
 The aim of this project is to develop a structured database and an intuitive, slider-driven dashboard that highlights key insights from the analysis of veteran housing services and demographics. The focus is on evaluating the types and frequency of support services accessed, priority status, employment status, and how these factors influence the overall outcome score and housing status.
+
 ## Technologies Used
--Python: Utilized libraries such as pandas, random, and NumPy to create and manipulate the dataset for database generation.
--Jupyter Notebook: Provided an interactive environment for coding, allowing for easy documentation, visualisation of outputs, and demonstration of the data processing workflow.
+- Python: Utilized libraries such as pandas, random, and NumPy to create and manipulate the dataset for database generation.
+- Jupyter Notebook: Provided an interactive environment for coding, allowing for easy documentation, visualisation of outputs, and demonstration of the data processing workflow.
 - Microsoft Excel: Employed Power Query and Power Pivot for data transformation and modeling. Used IF statements to categorize veterans’ ages into intervals, and created pivot tables, pivot charts, and sliders to design an intuitive and visually engaging dashboard.
 
 ## Dataset Description
