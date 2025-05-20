@@ -548,13 +548,13 @@ This project aims to create an intuitive, interactive dashboard that presents ke
 The goal of this project is to develop an interactive, user-friendly dashboard that showcases key insights from a hotel chain’s customer satisfaction survey. The survey, created using MS Forms and Google Forms, can be integrated with the dashboard to enable real-time data updates.
 
 ## Technologies Used
-- MS Forms (question and survey design)
+- Microsoft Forms and Google Forms (question and survey design)
 - Power BI (Table view, DAX, model view, split columns by delimiter, filters, visualisations formatting and editing)
 
 ## Dataset Description
 The dataset comprises three tables:
 - Survey Responses: Each record represents an individual survey participant and includes information such as gender, date of birth, purpose of visit, checkout date, customer acquisition channel (“How did you discover us?”), Net Promoter Score (NPS) rating (“How likely are you to recommend us to a friend or colleague?”), and evaluations of various sub-categories.
-- Category Mapping: This table links each sub-category (e.g., “Staff attitude,” “Food quality”) to its corresponding main category—Facilities, Staff, Room, or Restaurant.
+- Category Mapping: This table links each sub-category (e.g., “Staff attitude”, “Food quality”) to its corresponding main category—Facilities, Staff, Room, or Restaurant.
 - Rating Scale: This table defines the 5-star rating system, mapping qualitative feedback (e.g., Poor, Excellent) to numerical values (1 to 5).
 - Source: Lean Excel Solutions [Customer-Feedback-Dashboard-Data](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWlHakRib0JNLU4xZS1ITklmQXdVc1A5NERrZ3xBQ3Jtc0trUEczQ3B0cXF6ZDM4VUpkNDZlV1hnNnBTa3dmOWNkUWZsQ21rRkZBWTMyUmJKMGlUREQ5dFp6Sk5tQkFZLXZqTm05LVhCQWYyamV0clFHVlcwcVJ1UHpLV25QVUlXT2o5ZDZpS0FoSU5IYVVLMDRWbw&q=https%3A%2F%2Fleanexcelsolutions.com%2Fcustomer-analytics-dashboard-in-power-bi%2F&v=0mwToWeybS0)
 
